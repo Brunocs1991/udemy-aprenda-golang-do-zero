@@ -28,7 +28,7 @@ func main() {
 	firstUser.birthday()
 	fmt.Println(firstUser)
 	fmt.Println("Is the user of age?", firstUser.ofAge())
-	fmt.Println("\n======================================\n")
+	fmt.Println("\n======================================")
 	secondUser := user{name: "Jane", age: 25}
 	fmt.Println(secondUser)
 	secondUser.salve()
